@@ -1,1 +1,1 @@
-web: gunicorn Application.wsgi --log-file -
+web: java $JAVA_OPTS -Dserver.port=$PORT -jar target/website-0.0.1-SNAPSHOT.jar
