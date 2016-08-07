@@ -1,3 +1,4 @@
 .idea
 consultancy.iml
 target/
+node_modules/
